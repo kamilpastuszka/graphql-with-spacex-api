@@ -1,0 +1,38 @@
+{
+  "name": "spacex-launches",
+  "version": "1.0.0",
+  "description": "SpaceX launches with  React GraphQL and Apollo",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilpastuszka/react-apollo-graphql.git"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "author": "Kamil Pastuszka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamilpastuszka/react-apollo-graphql/issues"
+  },
+  "homepage": "https://github.com/kamilpastuszka/react-apollo-graphql#readme"
+}
